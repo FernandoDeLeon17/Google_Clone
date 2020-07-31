@@ -20,3 +20,87 @@ main {
     margin: 0 auto;
     margin-bottom: 35px;
 }
+
+.search {
+    width: 527px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    /* border: red 1px solid; */
+}
+
+.search-container {
+    border: #dfe1e5 1px solid;
+    border-radius: 100px;
+    width: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 0 0 14px; */
+}
+
+.search-container input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    /* para quitar el efecto cuando empezamos a escribir */
+    outline: none;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px 0 #20212447 ;
+    border-color: #dfe1e500;
+    border-radius: 100px;  
+}
+
+.search-icon {
+    /* background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    fill: currentColor;
+    color: #9aa0a6;
+    padding: 0 0 0 14px;
+}
+
+.micro {
+/*     background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    margin: 8px;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+.buttons div{
+    display: inline-block;
+}
+
+.buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px; 
+    padding: 0px 16px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+button:hover {
+    border: solid 1px #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}

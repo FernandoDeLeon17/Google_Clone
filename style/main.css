@@ -20,6 +20,11 @@ a {
     justify-content: flex-end;
 }
 
+.menu-links:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
 .menu ul {
     width: 250px;
     height: auto;
@@ -41,9 +46,19 @@ a {
     height: 25px;
     width: 25px;
     padding: 8px;
-    
 }
 
+.gb_cf {
+    fill: currentColor;
+    color: #5f6368;
+}
+
+.gb_cf:hover {
+    fill: currentColor;
+    color: #000;
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
 .profile-image {
     /* border: red 1px solid; */
     border-radius: 50%;
@@ -51,18 +66,18 @@ a {
     padding: 4px;
 }
 main {
-    margin-top: 150px;
+    margin-top: 110px;
     text-align: center;
 }
 
 .logo {
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .search {
-    width: 527px;
+    width: 582px;
     margin: 0 auto;
     margin-bottom: 35px;
     /* border: red 1px solid; */
@@ -71,7 +86,7 @@ main {
 .search-container {
     border: #dfe1e5 1px solid;
     border-radius: 100px;
-    width: 525px;
+    width: 580px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +94,7 @@ main {
 }
 
 .search-container input {
-    width: 450px;
+    width: 487px;
     height: 40px;
     border: none;
     /* para quitar el efecto cuando empezamos a escribir */
@@ -136,6 +151,7 @@ main {
     padding: 0px 16px;
     margin-right: 4px;
     margin-left: 4px;
+    cursor: pointer;
 }
 
 button:hover {
